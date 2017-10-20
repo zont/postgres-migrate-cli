@@ -1,0 +1,38 @@
+{
+  "name": "postgres-migrate-cli",
+  "version": "0.1.0",
+  "description": "Migrations tool for PostgreSQL",
+  "main": "index.js",
+  "bin": {
+    "postgres-migrate-cli": "./bin/postgres-migrate-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zont/postgres-migrate-cli"
+  },
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "db",
+    "migrate",
+    "migration",
+    "sql",
+    "cli"
+  ],
+  "author": "Alexander Zonov",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "1.2.0",
+    "pg": "7.3.0"
+  },
+  "devDependencies": {
+    "eslint": "4.9.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix index.js ./lib/**",
+    "test": "eslint index.js ./lib/**"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

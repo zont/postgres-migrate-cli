@@ -1,6 +1,6 @@
 {
   "name": "postgres-migrate-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Migrations tool for PostgreSQL",
   "main": "index.js",
   "bin": {
@@ -23,16 +23,16 @@
   "license": "MIT",
   "dependencies": {
     "minimist": "1.2.0",
-    "pg": "7.3.0"
+    "pg": "7.11.0"
   },
   "devDependencies": {
-    "eslint": "4.9.0"
+    "eslint": "^6.0.1"
   },
   "scripts": {
     "lint": "eslint --fix index.js ./lib/**",
     "test": "eslint index.js ./lib/**"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=6"
   }
 }

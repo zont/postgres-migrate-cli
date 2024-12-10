@@ -1,6 +1,6 @@
 {
   "name": "postgres-migrate-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Migrations tool for PostgreSQL",
   "main": "index.js",
   "bin": {
